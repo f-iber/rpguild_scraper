@@ -42,7 +42,7 @@ python guild\_scrape_script.py
 If you're not comfortable running from the commandline, there's a simple script that will do it for you, using none of the options.
 
 
-Click on the respective version of just_run for you operating system to run it. 
+Click on the respective version of just_run for your operating system to run it. 
 
 If you want to learn the command line to use the other options, you can use a tutorial like this:
 https://tutorial.djangogirls.org/en/intro_to_command_line/
