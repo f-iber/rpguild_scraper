@@ -98,7 +98,7 @@ Non-roleplay threads will always be OOC
 
 **text**: Text of the post. By default it includes no tags, just text, including text in hiders
 
-The CSV is encoding in UTF-8, make sure you open it in that mode if you want to see all of the lovely weirdness of the guild
+The CSV is encoded in UTF-8, make sure you open it in that mode if you want to see all of the lovely weirdness of the guild
 Linebreaks are left in, stripping them may make it more readable.
 
 # Known Issues
