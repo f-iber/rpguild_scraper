@@ -19,7 +19,7 @@ The above command should be run in whatever directory you placed requirements.tx
 
 
 
-#Usage:
+# Usage:
 
 List all the threads you want to scrape in the threads.csv file.
 
@@ -47,7 +47,7 @@ Click on the respective version of just_run for you operating system to run it.
 If you want to learn the command line to use the other options, you can use a tutorial like this:
 https://tutorial.djangogirls.org/en/intro_to_command_line/
 
-#Options:
+# Options:
 
     guild_scrape_script.py [--resume {True|False}] [--save {True|False}] [--limit number_goes_here] [--HTML {True|False}]
 
@@ -58,7 +58,7 @@ Options are listed after the script name in the command line
 
 Everything contained in square brackets is optional, if not specified it will default to False. Limit will default to zero.
 
-##Available Options:
+## Available Options:
 Save: If true, the script will save continuously and use in\_progress.csv to mark progress as it goes. This will slow it down, but preserve work in the case of an interruption.
 After generating in_progress.csv, you can use resume from it later.
 
@@ -69,7 +69,8 @@ Limit: An integer. If it's greater than zero, the scraper will stop after scrapi
 HTML: If True, will retrieve the raw HTML of a post instead of the text. Less readable, but more likely to preserve formatting if needed
 
 
-##Output notes
+
+# Output notes
 
 All scraped posts are saved in posts.csv
 
@@ -100,7 +101,7 @@ Non-roleplay threads will always be OOC
 The CSV is encoding in UTF-8, make sure you open it in that mode if you want to see all of the lovely weirdness of the guild
 Linebreaks are left in, stripping them may make it more readable.
 
-#Known Issues
+# Known Issues
 
 Weird stuff might happen if you give a thread ID belonging to a nonexistent or deleted thread
 
